@@ -1,0 +1,188 @@
+$ history
+    1  git init
+    2  git statu
+    3  git status
+    4  git add .
+    5  git status
+    6  git commit -m "My fisrt demo commit"
+    7  git status
+    8  clear
+    9  git commit -m "My fisrt demo commit"
+   10  git config --global user.name "sunnysingh1302"
+   11  git commit -m "My fisrt demo commit"
+   12  git config user.email "sunny_crazy1432000@yahoo.com"
+   13  git add .
+   14  git commit -m "My fisrt demo commit"
+   15  git status
+   16  git status
+   17  clear
+   18  git remote add origin "https://github.com/sunnysingh1302/Demo.git"
+   19  git push -u origin master
+   20  git status
+   21  git add .
+   22  git status
+   23  git commit -m "My Second demo commit"
+   24  git remote add origin "https://github.com/sunnysingh1302/Demo.git"
+   25  git push -u origin master
+   26  history
+   27  clear
+   28  git pull origin master
+   29  git branch
+   30  git branch feature1
+   31
+   32  git branch -D feature1
+   33  git branch feature1
+   34  git checkout feature1
+   35  ls
+   36  nano me.txt
+   37  git status
+   38  git add .
+   39  ls
+   40  git commit -m "feature branch commit"
+   41  git push origin feature1
+   42  git log
+   43  ls
+   44  nano 7.txt
+   45  ls
+   46  git checkout master
+   47  ls
+   48  git checkout feature1
+   49  ls
+   50  git stash
+   51  git checkout master
+   52  ls
+   53  git checkout feature1
+   54  git status
+   55  git add .
+   56  ls
+   57  git stash
+   58  git checkout master
+   59  ls
+   60  git stash pop
+   61  ls
+   62  git status
+   63  git add .
+   64  ls
+   65  git stash
+   66  git checkout master
+   67  ls
+   68  git stash pop
+   69  ls
+   70  git add .
+   71  ls
+   72  git commit -m "Stashing over now commiting"
+   73  git checkout master
+   74  ls
+   75  git checkout feature
+   76  git checkout feature1
+   77  ls
+   78  git push origin feature1
+   79  ls
+   80  git status
+   81  git stash pop
+   82  git checkout master
+   83  ls
+   84  git status
+   85  git add .
+   86  ls
+   87  git status
+   88  git commit -m "committing finished"
+   89  ls
+   90  git push origin master
+   91  git log
+   92  git checkout feature1
+   93  git log
+   94  git revert 0603fc39eb04c237d7c5e90a3905f3e5add6aea3
+   95  ls
+   96  git log
+   97  exit
+   98  git clone https://github.com/sunnysingh1302/ASNNewDirec.git
+   99  git clone https://github.com/sunnysingh1302/ASNPortal.git
+  100  git pull
+  101  exit
+  102  git init
+  103  nano First.txt'
+
+.
+  104  nano First.txt
+  105  git status
+  106  git add .
+  107  git status
+  108  git commit -m "My first commit"
+  109  git config user.name "sunnysingh1302"
+  110  git config user.email "sunny_crazy1432000@yahoo.com"
+  111  git status
+  112  git commit -m "My first commit"
+  113  git status
+  114  git status
+  115  git remote add origin "https://github.com/sunnysingh1302/Git-Session.git"
+  116  git push origin master
+  117  git pull origin master
+  118  nano second.txt
+  119  git status
+  120  git status
+  121  git add First.txt
+  122  git status
+  123  git add second.txt
+  124  git status
+  125  nano Third.txt
+  126  git status
+  127  git status
+  128  git add .
+  129  git status
+  130  git commit -m "my second commit"
+  131  git status
+  132  git push origin master
+  133  history
+  134  clear
+  135  git branch feature
+  136  git branch
+  137  git branch -D feature
+  138  git branch feature
+  139  git checkout feature
+  140  ls
+  141  nano feature.txt
+  142  ls
+  143  git status
+  144  git add .
+  145  git status
+  146  git commit -m "My first feature commit"
+  147  git status
+  148  git push origin feature
+  149  git log
+  150  git revert 5f06c98b81d31579be7d27e35ae9db3dc6b1d30b
+  151  ls
+  152  git push origin feature
+  153  clear
+  154  git log
+  155  git checkout 5f06c98b81d31579be7d27e35ae9db3dc6b1d30b
+  156  ls
+  157  cat feature.txt
+  158  git checkout feature
+  159  clear
+  160  ls
+  161  nano stash.txt
+  162  ls
+  163  git checkout master
+  164  ls
+  165  git checkout feature
+  166  ls
+  167  git stash
+  168  ls
+  169  git stash
+  170  git add.
+  171  ls
+  172  git status
+  173  git add stash.txt
+  174  ls
+  175  git status
+  176  git stash
+  177  git checkout master
+  178  ls
+  179  git stash pop
+  180  git checkout feature
+  181  git status
+  182  git commit -m "My stash commit"
+  183  git status
+  184  git push origin feature
+  185  history
